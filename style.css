@@ -1,0 +1,105 @@
+.container {
+    max-width: 800px;
+  margin: 0 auto;   /* centraliza o bloco na página */
+  padding: 0 20px;
+    /* espaçamento lateral leve */ /* espaçamento lateral leve */
+}
+.container h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.container h2 {
+  font-size: 200px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.container h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.container h4 {
+  font-size: 200px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.container p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+h1, h2, h3, h4, p {
+    
+  text-align: left; /* alinhado à esquerda */
+  margin-left: 0;
+}
+h4 {
+    font-size: 30px;
+    margin: 10px 0 30px 0;
+}
+
+
+figure {
+  margin: 20px 0;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figure figcaption {
+  font-size: 20;
+  color: #666;
+  margin-top: 5px;
+  font-style: italic;
+  text-align: center;
+  border-bottom: 1px solid #666;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+h5 { 
+    font-size: 40px;
+    margin: 2px;
+    color: rgb(149, 8, 149);
+    text-transform: uppercase;
+}
+p { 
+    border-bottom: #222 1px solid;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h6:nth-of-type(1) {
+    font-size: 40px;
+    margin: 2px;
+    color: gold;
+    text-transform: uppercase;
+}
+
+h6:nth-of-type(2) {
+    font-size: 40px;
+    margin: 2px;
+    color: rgb(21, 176, 233);
+    text-transform: uppercase;
+}
+footer { 
+    text-align: center;
+}
+
+   
+    
+
